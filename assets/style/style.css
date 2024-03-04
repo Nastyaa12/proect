@@ -1,0 +1,565 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    background-color: #e6dbd1;
+    color: #756b62;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation .one {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation .three {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation .nadpis,
+img {
+    margin: 30px;
+    font-size: 10px;
+}
+
+header .navigation .logo {
+    margin: 20px;
+    font-size: 20px;
+}
+
+header .osnova img {
+    display: flex;
+}
+
+.image-grid {
+    display: grid;
+    margin: auto;
+    width: 50%;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 10px;
+    padding: 10px;
+}
+
+.image1 {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.image2 {
+    margin-top: 200%;
+    margin-left: -25%;
+}
+
+.image3 {
+    margin-top: 18%;
+    margin-left: -25%;
+}
+
+.image4 {
+    margin-top: 130%;
+    margin-left: 350%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header .osnova .text-bolshoi {
+    margin-left: -100%;
+    font-family: "Cormorant";
+    font-size: 75px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header .osnova .text-malenkiy {
+    font-family: "Cormorant";
+    font-style: italic;
+    margin-left: 35%;
+    width: 50%;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.image5 {
+    margin-top: -10%;
+    margin-left: 65%;
+}
+
+.line {
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 60px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-top: 15px;
+}
+
+.collection-text {
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+
+.collection {
+    display: grid;
+    margin: auto;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item img {
+    margin-left: 0%;
+    width: 500px;
+    height: auto;
+}
+
+.add-button {
+    display: flex;
+    margin-left: 460px;
+    margin-top: -40px;
+
+    width: 40px;
+    height: 40px;
+    background:
+        linear-gradient(#000 0 0),
+        linear-gradient(#000 0 0);
+    background-position: center;
+    background-size: 50% 1px, 1px 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.add-button:hover {
+    background-color: #dfcebe;
+}
+
+main .textic h1 {
+    font-family: "Cormorant";
+}
+
+main .principle {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+main .principle p {
+    font-family: "Cormorant"
+}
+
+.section-story {
+    height: 1000px;
+}
+
+.section-story .container {
+    position: relative;
+    left: 0px;
+
+}
+
+.section-story .photka {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 50px;
+}
+
+.section-story .photka p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.section-story .photka .mila {
+    display: flex;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    gap: 10px;
+}
+
+.section-story .text-mila p {
+    font-size: 15px;
+}
+
+.section-story .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.section-story img{
+    height: 110px;
+    width: 110px;
+    border-radius:50%;
+}
+
+.section-story .line {
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 60px;
+    font-size: 2px;
+    background-color: rgb(97, 82, 72);
+    margin-top: 15px;
+}
+
+.section-story .zagolovok-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.section-story h3 {
+    display: flex;
+    font-size: 20px;
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-story .opisanie {
+    font-family: "Corm";
+    position: relative;
+    bottom: 50px;
+    color: rgb(97, 82, 72);
+    width: 1100px;
+}
+
+.section-story .opisanie p {
+    width: 720px;
+    font-size: 25px;
+}
+
+.section-story .opisanie h2 {
+    font-family: "Corm";
+    font-size: 50px;
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section-story .container {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+.section-story .kartinke .vtoraya {
+    height: 200px;
+    width: 200px;
+    border-radius: 0%;
+    position: relative;
+    top: 400px;
+    right: 250px;
+}
+
+.section-story .kartinke .pervaia {
+    height: 550px;
+    width: 400px;
+    border-radius: 0%;
+    position: relative;
+    right: 250px;
+    bottom: 40px;
+}
+
+.section-story .kartinke {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    right: 350px;
+}
+
+.section-story .kartinke .rose {
+    opacity: 2;
+    height: 600px;
+    width: 200px;
+    position: relative;
+    left: 550px;
+}
+
+.section-shine {
+    position: relative;
+    height: 600px;
+}
+
+.section-shine .container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-shine .photon {
+    height: 300px;
+    width: 45%;
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.bacg-text {
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+
+}
+
+.bacg-text pre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+
+}
+
+.text-up {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-shine .photon a {
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1.5px solid white;
+    padding: 6px;
+    width: 105px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.section-shine .container .zakaz:hover {
+    color: black;
+    border: 1.5px solid black;
+}
+
+.section-katalog {
+    margin-top: 130px;
+    height: 600px;
+}
+
+.section-katalog .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 60px;
+    position: relative;
+    right: 50px;
+}
+
+.section-katalog .podpiska {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Montserrat";
+
+}
+
+.section-katalog .podcherk {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.section-katalog .container img {
+    height: 200px;
+    width: 200px;
+}
+
+.section-katalog .podpiska p {
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.815);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-auth {
+    background-image: url(/assets/img/19.jpg);
+    height: 500px;
+}
+
+.section-auth .care h2 {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.904);
+    font-size: 50px;
+}
+
+.section-auth .care p {
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.822);
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.section-auth .care {
+    width: 750px;
+}
+
+.section-auth .auth {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: rgba(97, 82, 72, 0.986);
+    gap: 30px;
+
+}
+
+.section-auth .auth .name,
+.phone {
+    font-size: 20px;
+    background-color: rgba(245, 245, 220, 0);
+    color: rgba(97, 82, 72, 0.979);
+    border-bottom: solid 2px;
+}
+
+.section-auth .acc {
+    display: flex;
+    gap: 10px;
+    color: rgba(56, 56, 33, 0.589);
+}
+
+.section-auth a {
+    font-family: "Montserrat";
+    color: rgba(56, 56, 33, 0.589);
+    font-size: 20px;
+    border: 1.5px solid rgba(56, 56, 33, 0.589);
+    padding: 6px;
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 200px;
+    top: 50px;
+
+}
+
+.section-auth a:hover {
+    color: black;
+    border: 1.5px solid black;
+}
+
+footer {
+    background-image: url(/assets/img/20.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.section-end .container {
+    width: 1100px;
+}
+
+.section-end .milo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-end h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: (56, 56, 33, 0.589);
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.section-end p {
+    font-family: "Montserrat";
+    color: rgba(56, 56, 33, 0.589);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.section-end .s {
+    font-size: 10px;
+}
+
+.section-end .adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(56, 56, 33, 0.589);
+    font-weight: 300;
+    position: relative;
+    top: 80px;
+}
+
+.section-end .social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.section-end .social .vk,
+.yt,
+.instgr {
+    border: 1.5px solid rgba(56, 56, 33, 0.589);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+}

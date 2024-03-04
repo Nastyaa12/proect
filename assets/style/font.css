@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-LightItalic.ttf);
+    font-weight: 100;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-BlackItalic.ttf);
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic
+}
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-Light.ttf);
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-Black.ttf);
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal
+}
+
+
+
+
+
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-BoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-LightItalic.ttf);
+    font-weight: 100;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic
+}
+
+
+
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-Bold.ttf);
+    font-weight: 800;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-Light.ttf);
+    font-weight: 100;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-Medium.ttf);
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(../font/Cormorant_Infant/CormorantInfant-SemiBold.ttf);
+    font-weight: 600;
+    font-style: italic
+}
